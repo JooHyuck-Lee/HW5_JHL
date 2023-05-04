@@ -7,7 +7,7 @@
 import csv
 
 def main():
-    f2 = open('202303_Seoul_Subway.csv')
+    f2 = open('q3.csv')
     data = csv.reader(f2)
     header = next(data)
     

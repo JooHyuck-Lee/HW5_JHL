@@ -7,7 +7,7 @@
 import csv
 
 def main():
-    f1 = open('2022_Seoul_Temp.csv')
+    f1 = open('q2.csv')
     data = csv.reader(f1)
     header = next(data)
 
