@@ -34,7 +34,7 @@ def main():
     print("*** Annual Temperature Report for Seoul in 2022 ***")
     print("Day with the Largest Temperature Variation: %s"%(maxDiffDay))
     print("Maximum Tempterature Difference: %.1f Celcius"%(maxDiffTemp))
-    print("Day with the Lowest Temperature Variation: %s"%(minDiffDay))
+    print("Day with the Smallest Temperature Variation: %s"%(minDiffDay))
     print("Minimum Tempterature Difference: %.1f Celcius"%(minDiffTemp))
 
     f1.close()
